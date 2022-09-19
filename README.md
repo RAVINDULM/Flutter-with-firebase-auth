@@ -1,16 +1,14 @@
-# googleauth
+<div style="text-align:center"><img src="./assets/Screens/logolandscape.png></div>
 
-A new Flutter project.
+# "Sign in/ Signup with firebase authentication" 
 
-## Getting Started
+This is simple mobile app that is impmented using flutter ,dart and firebase. mainly focus on firebase authentication with email password and google sign in. 
 
-This project is a starting point for a Flutter application.
+## Subsystems
+- Google sign in with email password sign in
+- Google sign in with email password sign up
 
-A few resources to get you started if this is your first Flutter project:
+## Screen Captures
+<div style="text-align:center"><img src="./docs/screenshots/screenshot_1.png" /></div>
+<div style="text-align:center"><img src="./docs/screenshots/screenshot_2.png" /></div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
