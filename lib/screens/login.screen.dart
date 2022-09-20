@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:googleauth/Auth/authentication.dart';
+import 'package:googleauth/screens/home.screen.dart';
 import 'package:googleauth/screens/welcome.screen..dart';
 
 class Login extends StatelessWidget {
@@ -100,7 +101,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     if (_formKey.currentState!.validate()) {
                       // Process data.
                       auth.createUserWithEmailAndPassword(email: email.text, password: password.text).then((_){
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => WelcomeScreen()));
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
                   });
                     }
                   },
